@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Battery Form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <main class="page hire-me-page">
+        <section class="portfolio-block hire-me">
+            <div class="container">
+                <div class="heading">
+                    <h2>FIll out Your Details.</h2>
+                </div>
+                <form action="oil change.php" method="post">
+                    <div class="form-group"><label for="name">Name</label></div><input class="form-control" type="text" name="name">
+
+                    <div class="form-group"><label for="mobile">Phone Number</label><input class="form-control" type="tel" name="mobile"></div>
+
+                    <div class="form-group"><label for="email">Email</label><input class="form-control" type="email" id="email" name="email"></div>
+                     <div class="form-group"><label for="password">Password</label><input class="form-control" type="password" id="email" name="password"></div>
+
+                    <div class="form-group"><label for="message">Address</label><textarea class="form-control" id="message" name="address"></textarea></div>
+
+                    <div class="form-group"><label for="subject">Car Model</label>
+                       
+                            <select class="form-control" id="subject" name="car_model" required>
+                   <option value="1" selected="selected" disabled="disabled">--select-car-model--</option>
+                   <option value="Amaze">Amaze</option>
+                   <option value="City">City</option>
+                   <option value="Accord hybrid">Accord hybrid</option>
+
+                   <option value="i20">i20</option>
+
+                   <option value="Elite i20">Elite i20</option>
+                   <option value="Venue">Venue</option>
+
+                   <option value="Swift">Swift</option>
+                   <option value="Baleno">Swift</option>
+                   <option value="RediGo">RediGo</option>
+                   <option value="Go">Go</option>
+                   <option value="Figo">Figo</option>
+                   <option value="Scorpio">Scorpio</option>
+                   <option value="Bolero">Bolero</option>
+                   <option value="Micra">Micra</option>
+                   <option value="Nano">Nano</option>
+                   <option value="Innova">Innova</option>
+                   <option value="A4">A4</option>
+                   <option value="A6">A6</option>
+                   <option value="3 Series">3 Series</option>
+                   <option value="5 Series">5 Series</option>
+                  </select></div>
+
+
+                    <div class="form-group"><label for="subject">Car type</label>
+                       
+                    <select class="form-control" id="subject" name="car_type" required>
+                   <option value="1" selected="selected" disabled="disabled">--select-car-type--</option>
+                   <option value="Petrol">Petrol</option>
+
+                  <option value="Deisel">Deisel</option>
+
+                  </select></div>
+                    
+
+                    <div class="form-group"><label for="email">Vehicle Number</label></div><input class="form-control" type="text" name="veh_no">
+
+                    <div class="form-group"><label for="message">Message</label><textarea class="form-control" id="message" name="message"></textarea></div>
+
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6"><label for="hire-date">Pick Up Date</label><input class="form-control" id="hire-date" type="date" name="pickup"></div>
+                    <div class="col-md-6"><label for="hire-date">Drop Date</label><input class="form-control" id="hire-date" type="date" name="delivery"></div>
+                </div>
+                 
+                       
+                 
+            </div><button class="btn btn-primary btn-block" type="submit">Submit</button></form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer"></footer>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
